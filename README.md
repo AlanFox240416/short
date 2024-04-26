@@ -14,7 +14,7 @@
 3. 在帐户主页中，选择`pages`> ` Create a project` > `Connect to Git`
 4. 选择你创建的项目存储库，在`Set up builds and deployments`部分中，全部默认即可。
 5. 点击`Save and Deploy`，稍等片刻，你的网站就部署好了。
-6. 创建D1数据库参考[这里](https://github.com/x-dr/telegraph-Image/blob/main/docs/manage.md)(==只要第一步创建D1数据库就可以，后续执行sql命令创建表等不用==)
+6. 创建D1数据库参考[这里](https://github.com/x-dr/telegraph-Image/blob/main/docs/manage.md)(**只要第一步创建D1数据库就可以，后续执行sql命令创建表等不用**)
 7. 执行sql命令创建表（在控制台输入框粘贴下面语句执行即可）
 
 ```sql
@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS logs (
 );
 
 ```
-8. 选择部署完成short项目，前往后台依次点击`设置`->`函数`->`D1 数据库绑定`->`编辑绑定`->变量名称填写：`DB` 命名空间 `选择你提前创建好的D1` 数据库绑定（==不改源码，变量名称一定要填DB==）
+8. 选择部署完成short项目，前往后台依次点击`设置`->`函数`->`D1 数据库绑定`->`编辑绑定`->变量名称填写：`DB` 命名空间 `选择你提前创建好的D1` 数据库绑定（**不改源码，变量名称一定要填DB**）
 
 9. 重新部署项目，完成。
 
