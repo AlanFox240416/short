@@ -14,7 +14,7 @@
 3. 在帐户主页中，选择`pages`> ` Create a project` > `Connect to Git`
 4. 选择你创建的项目存储库，在`Set up builds and deployments`部分中，全部默认即可。
 5. 点击`Save and Deploy`，稍等片刻，你的网站就部署好了。
-6. 创建D1数据库参考[这里](https://github.com/x-dr/telegraph-Image/blob/main/docs/manage.md)(**只要第一步创建D1数据库就可以，后续执行sql命令创建表与这里的7一样（表名不同）**)
+6. 创建D1数据库参考[这里](https://github.com/x-dr/telegraph-Image/blob/main/docs/manage.md)(**只要第一步创建D1数据库就可以，后续执行sql命令创建表（是为image准备的）与这里的7不一样**)
 7. 执行sql命令创建表（在控制台输入框粘贴下面语句执行即可）
 
 ```sql
